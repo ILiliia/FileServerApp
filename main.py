@@ -8,5 +8,3 @@ if __name__ == '__main__':
     options, args = parser.parse_known_args()
 
     os.environ['FILE_DIR_PATH'] = options.file_dir
-
-create_file()
